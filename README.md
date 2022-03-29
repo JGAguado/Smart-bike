@@ -9,8 +9,8 @@
 RP2040 microcontroller based board for standard bikes applications: lights control, GPS location with LoRa telemetry and display unit.
 
 <p float="left">
-   <img src="https://github.com/JGAguado/uBike/tree/main/Documentation/Images/Top.png" width="40%">
-   <img src="https://github.com/JGAguado/uBike/tree/main/Documentation/Images/Bottom.png" width="40%">   
+   <img src="./Documentation/Images/Top.png" width="49%">
+   <img src="./Documentation/Images/Bottom.png" width="49%">   
 </p>
 
 ## Project tree
