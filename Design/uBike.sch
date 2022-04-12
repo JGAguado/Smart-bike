@@ -196,52 +196,6 @@
 </layers>
 <schematic xreflabel="%F%N/%S" xrefpart="/%S.%C%R">
 <libraries>
-<library name="frames" urn="urn:adsk.eagle:library:229">
-<description>&lt;b&gt;Frames for Sheet and Layout&lt;/b&gt;</description>
-<packages>
-</packages>
-<symbols>
-<symbol name="A4L-LOC" urn="urn:adsk.eagle:symbol:13874/1" library_version="1">
-<wire x1="256.54" y1="3.81" x2="256.54" y2="8.89" width="0.1016" layer="94"/>
-<wire x1="256.54" y1="8.89" x2="256.54" y2="13.97" width="0.1016" layer="94"/>
-<wire x1="256.54" y1="13.97" x2="256.54" y2="19.05" width="0.1016" layer="94"/>
-<wire x1="256.54" y1="19.05" x2="256.54" y2="24.13" width="0.1016" layer="94"/>
-<wire x1="161.29" y1="3.81" x2="161.29" y2="24.13" width="0.1016" layer="94"/>
-<wire x1="161.29" y1="24.13" x2="215.265" y2="24.13" width="0.1016" layer="94"/>
-<wire x1="215.265" y1="24.13" x2="256.54" y2="24.13" width="0.1016" layer="94"/>
-<wire x1="246.38" y1="3.81" x2="246.38" y2="8.89" width="0.1016" layer="94"/>
-<wire x1="246.38" y1="8.89" x2="256.54" y2="8.89" width="0.1016" layer="94"/>
-<wire x1="246.38" y1="8.89" x2="215.265" y2="8.89" width="0.1016" layer="94"/>
-<wire x1="215.265" y1="8.89" x2="215.265" y2="3.81" width="0.1016" layer="94"/>
-<wire x1="215.265" y1="8.89" x2="215.265" y2="13.97" width="0.1016" layer="94"/>
-<wire x1="215.265" y1="13.97" x2="256.54" y2="13.97" width="0.1016" layer="94"/>
-<wire x1="215.265" y1="13.97" x2="215.265" y2="19.05" width="0.1016" layer="94"/>
-<wire x1="215.265" y1="19.05" x2="256.54" y2="19.05" width="0.1016" layer="94"/>
-<wire x1="215.265" y1="19.05" x2="215.265" y2="24.13" width="0.1016" layer="94"/>
-<text x="217.17" y="15.24" size="2.54" layer="94">&gt;DRAWING_NAME</text>
-<text x="217.17" y="10.16" size="2.286" layer="94">&gt;LAST_DATE_TIME</text>
-<text x="230.505" y="5.08" size="2.54" layer="94">&gt;SHEET</text>
-<text x="216.916" y="4.953" size="2.54" layer="94">Sheet:</text>
-<frame x1="0" y1="0" x2="260.35" y2="179.07" columns="6" rows="4" layer="94"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="A4L-LOC" urn="urn:adsk.eagle:component:13926/1" prefix="FRAME" uservalue="yes" library_version="1">
-<description>&lt;b&gt;FRAME&lt;/b&gt;&lt;p&gt;
-DIN A4, landscape with location and doc. field</description>
-<gates>
-<gate name="G$1" symbol="A4L-LOC" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun-PowerSymbols">
 <description>&lt;h3&gt;SparkFun Power Symbols&lt;/h3&gt;
 This library contains power, ground, and voltage-supply symbols.
@@ -29346,6 +29300,51 @@ Source: &lt;a href="https://www.winbond.com/resource-files/w25q128jv revf 032720
 </deviceset>
 </devicesets>
 </library>
+<library name="SpaceDIY_symbols">
+<packages>
+</packages>
+<symbols>
+<symbol name="A4L-LOC">
+<wire x1="256.54" y1="3.81" x2="256.54" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="256.54" y1="8.89" x2="256.54" y2="13.97" width="0.1016" layer="94"/>
+<wire x1="256.54" y1="13.97" x2="256.54" y2="19.05" width="0.1016" layer="94"/>
+<wire x1="256.54" y1="19.05" x2="256.54" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="161.29" y1="3.81" x2="161.29" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="161.29" y1="24.13" x2="215.265" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="24.13" x2="256.54" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="256.54" y1="8.89" x2="215.265" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="8.89" x2="215.265" y2="3.81" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="8.89" x2="215.265" y2="13.97" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="13.97" x2="256.54" y2="13.97" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="13.97" x2="215.265" y2="19.05" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="19.05" x2="256.54" y2="19.05" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="19.05" x2="215.265" y2="24.13" width="0.1016" layer="94"/>
+<text x="217.17" y="15.24" size="2.54" layer="94">By J.G.Aguado</text>
+<text x="217.17" y="10.16" size="2.286" layer="94">&gt;LAST_DATE_TIME</text>
+<text x="227.965" y="5.08" size="2.54" layer="94">&gt;SHEET</text>
+<text x="216.916" y="4.953" size="2.54" layer="94">Sheet:</text>
+<frame x1="0" y1="0" x2="260.35" y2="179.07" columns="6" rows="4" layer="94"/>
+<text x="217.17" y="20.32" size="2.54" layer="94">&gt;DRAWING_NAME</text>
+<text x="163.83" y="20.32" size="2.54" layer="94">NOTES:</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="A4L-LOC" prefix="FRAME" uservalue="yes">
+<description>&lt;b&gt;FRAME&lt;/b&gt;&lt;p&gt;
+DIN A4, landscape with location and doc. field</description>
+<gates>
+<gate name="G$1" symbol="A4L-LOC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -29359,7 +29358,6 @@ Source: &lt;a href="https://www.winbond.com/resource-files/w25q128jv revf 032720
 </class>
 </classes>
 <parts>
-<part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
 <part name="H1" library="SpaceDIY_connectors" deviceset="MOUNT-PAD-ROUND" device="" package3d_urn="urn:adsk.eagle:package:14280/1"/>
 <part name="H2" library="SpaceDIY_connectors" deviceset="MOUNT-PAD-ROUND" device="" package3d_urn="urn:adsk.eagle:package:14280/1"/>
 <part name="H3" library="SpaceDIY_connectors" deviceset="MOUNT-PAD-ROUND" device="" package3d_urn="urn:adsk.eagle:package:14280/1"/>
@@ -29367,7 +29365,6 @@ Source: &lt;a href="https://www.winbond.com/resource-files/w25q128jv revf 032720
 <part name="GND20" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="100"/>
 <part name="GND4" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
 <part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="750K"/>
 <part name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="100k"/>
 <part name="R22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="100k"/>
@@ -29509,7 +29506,6 @@ Source: &lt;a href="https://www.winbond.com/resource-files/w25q128jv revf 032720
 <part name="GND24" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="U1" library="SpaceDIY_modules" deviceset="RA-02_LORA" device=""/>
 <part name="J1" library="SparkFun-Connectors" deviceset="CONN_04" device="PTH"/>
-<part name="FRAME3" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
 <part name="D6" library="SparkFun-LED" deviceset="LED-YELLOW" device="0603" value="Yellow">
 <attribute name="LCSC" value="C72038"/>
 </part>
@@ -29607,11 +29603,13 @@ Source: &lt;a href="https://www.winbond.com/resource-files/w25q128jv revf 032720
 <part name="U3" library="SamacSys_Parts" deviceset="W25Q128JVSIQ" device=""/>
 <part name="GND26" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY33" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="FRAME1" library="SpaceDIY_symbols" deviceset="A4L-LOC" device=""/>
+<part name="FRAME2" library="SpaceDIY_symbols" deviceset="A4L-LOC" device=""/>
+<part name="FRAME3" library="SpaceDIY_symbols" deviceset="A4L-LOC" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="217.17" y="15.24" size="2.54" layer="94">J.G.Aguado</text>
 <wire x1="160.02" y1="175.26" x2="160.02" y2="129.54" width="0.254" layer="95" style="longdash"/>
 <text x="146.304" y="115.316" size="1.27" layer="97" align="center">PIO must be contiguous
 for SDIO DAT pins
@@ -29631,11 +29629,6 @@ but can fall back to SPI1</text>
 <wire x1="180.34" y1="25.4" x2="180.34" y2="76.2" width="0.2032" layer="97" style="longdash"/>
 </plain>
 <instances>
-<instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
-<attribute name="DRAWING_NAME" x="217.17" y="20.32" size="2.54" layer="94"/>
-<attribute name="LAST_DATE_TIME" x="217.17" y="10.16" size="2.286" layer="94"/>
-<attribute name="SHEET" x="248.285" y="5.08" size="2.54" layer="94"/>
-</instance>
 <instance part="C1" gate="G$1" x="48.26" y="101.6" smashed="yes" rot="R90">
 <attribute name="NAME" x="41.656" y="101.854" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="44.196" y="99.06" size="1.778" layer="96" font="vector" rot="MR180"/>
@@ -29893,6 +29886,11 @@ but can fall back to SPI1</text>
 </instance>
 <instance part="SUPPLY33" gate="G$1" x="243.84" y="99.06" smashed="yes">
 <attribute name="VALUE" x="243.84" y="101.854" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="217.17" y="10.16" size="2.286" layer="94"/>
+<attribute name="SHEET" x="227.965" y="5.08" size="2.54" layer="94"/>
+<attribute name="DRAWING_NAME" x="217.17" y="20.32" size="2.54" layer="94"/>
 </instance>
 </instances>
 <busses>
@@ -30629,14 +30627,8 @@ VIN: 2.5V-6V</text>
 <wire x1="2.54" y1="81.28" x2="129.54" y2="81.28" width="0.1524" layer="95" style="longdash"/>
 <wire x1="129.54" y1="81.28" x2="129.54" y2="91.44" width="0.1524" layer="95" style="longdash"/>
 <wire x1="162.56" y1="25.4" x2="162.56" y2="91.44" width="0.1524" layer="95" style="longdash"/>
-<text x="217.17" y="15.24" size="2.54" layer="94">J.G.Aguado</text>
 </plain>
 <instances>
-<instance part="FRAME3" gate="G$1" x="0" y="0" smashed="yes">
-<attribute name="DRAWING_NAME" x="217.17" y="20.32" size="2.54" layer="94"/>
-<attribute name="LAST_DATE_TIME" x="217.17" y="10.16" size="2.286" layer="94"/>
-<attribute name="SHEET" x="248.285" y="5.08" size="2.54" layer="94"/>
-</instance>
 <instance part="R20" gate="G$1" x="76.2" y="50.8" smashed="yes" rot="R90">
 <attribute name="NAME" x="74.7014" y="46.99" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="79.502" y="46.99" size="1.778" layer="96" rot="R90"/>
@@ -30824,6 +30816,11 @@ VIN: 2.5V-6V</text>
 <instance part="U6" gate="G$1" x="200.66" y="66.04" smashed="yes">
 <attribute name="NAME" x="203.2" y="58.42" size="1.778" layer="95"/>
 <attribute name="VALUE" x="203.2" y="55.88" size="1.778" layer="96"/>
+</instance>
+<instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="217.17" y="10.16" size="2.286" layer="94"/>
+<attribute name="SHEET" x="227.965" y="5.08" size="2.54" layer="94"/>
+<attribute name="DRAWING_NAME" x="217.17" y="20.32" size="2.54" layer="94"/>
 </instance>
 </instances>
 <busses>
@@ -31216,7 +31213,6 @@ VIN: 2.5V-6V</text>
 <text x="132.842" y="66.04" size="2.54" layer="94" font="vector" align="center">Buzzer</text>
 <text x="201.422" y="109.22" size="2.54" layer="94" font="vector" align="center">Front &amp; rear lights</text>
 <text x="137.922" y="27.94" size="2.54" layer="94" font="vector" align="center">Mounting holes</text>
-<text x="217.17" y="15.24" size="2.54" layer="94">J.G.Aguado</text>
 <text x="145.542" y="170.18" size="2.54" layer="94" font="vector" align="center">Key switch</text>
 <text x="26.162" y="170.18" size="2.54" layer="94" font="vector" align="center">Light sensor</text>
 <wire x1="114.3" y1="38.1" x2="165.1" y2="38.1" width="0.1524" layer="95" style="longdash"/>
@@ -31227,11 +31223,6 @@ VIN: 2.5V-6V</text>
 <wire x1="114.3" y1="5.08" x2="114.3" y2="38.1" width="0.1524" layer="95" style="longdash"/>
 </plain>
 <instances>
-<instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes">
-<attribute name="DRAWING_NAME" x="217.17" y="20.32" size="2.54" layer="94"/>
-<attribute name="LAST_DATE_TIME" x="217.17" y="10.16" size="2.286" layer="94"/>
-<attribute name="SHEET" x="248.285" y="5.08" size="2.54" layer="94"/>
-</instance>
 <instance part="H1" gate="G$1" x="132.08" y="20.32" smashed="yes" rot="R180">
 <attribute name="NAME" x="129.286" y="19.7358" size="1.778" layer="95" rot="R180"/>
 </instance>
@@ -31384,6 +31375,11 @@ VIN: 2.5V-6V</text>
 <instance part="J14" gate="J1" x="124.46" y="86.36" smashed="yes">
 <attribute name="VALUE" x="119.38" y="78.994" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="119.38" y="94.488" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="FRAME3" gate="G$1" x="0" y="0" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="217.17" y="10.16" size="2.286" layer="94"/>
+<attribute name="SHEET" x="227.965" y="5.08" size="2.54" layer="94"/>
+<attribute name="DRAWING_NAME" x="217.17" y="20.32" size="2.54" layer="94"/>
 </instance>
 </instances>
 <busses>
